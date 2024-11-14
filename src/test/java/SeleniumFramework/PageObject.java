@@ -14,7 +14,7 @@ import TestComponent.BaseTest;
 public class PageObject extends BaseTest {
 
 	String productName = "ZARA COAT 3";
-
+	//new change
 	@Test(dataProvider = "getData", groups = {"Purchase"})
 	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
