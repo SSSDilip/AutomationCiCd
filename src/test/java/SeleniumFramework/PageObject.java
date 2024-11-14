@@ -15,6 +15,7 @@ public class PageObject extends BaseTest {
 
 	String productName = "ZARA COAT 3";
 	//new change
+	//new change 1
 	@Test(dataProvider = "getData", groups = {"Purchase"})
 	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
